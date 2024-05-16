@@ -1,0 +1,2 @@
+/usr/bin/ar qc libABCS-5E_LIB.a "CMakeFiles/ABCS-5E_LIB.dir/Reader.cpp.o"
+/usr/bin/ranlib libABCS-5E_LIB.a
