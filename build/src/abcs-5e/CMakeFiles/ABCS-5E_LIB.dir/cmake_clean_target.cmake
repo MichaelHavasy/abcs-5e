@@ -1,3 +1,0 @@
-file(REMOVE_RECURSE
-  "libABCS-5E_LIB.a"
-)

@@ -1,1 +1,0 @@
-/usr/bin/c++ "CMakeFiles/abcs-5e.dir/main.cpp.o" -o abcs-5e  libABCS-5E_LIB.a
