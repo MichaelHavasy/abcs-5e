@@ -1,4 +1,4 @@
-cmake_minimum_required(VERSION 3.1...3.29)
+cmake_minimum_required(VERSION 3.29)
 
 project(
   ABCS-5E
@@ -6,4 +6,5 @@ project(
   LANGUAGES CXX)
 
 add_subdirectory(src)
+add_subdirectory(etc)
 

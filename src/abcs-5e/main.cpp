@@ -10,7 +10,8 @@
 #include "Reader.h"
 
 namespace {
-
+/// @brief Generates stats using 4d6 drop lowest
+/// @return A vector containing 6 stats
 std::vector<int> RollStats() {
     std::minstd_rand rng(std::time(0));
     std::vector<int> stats;
@@ -29,7 +30,10 @@ std::vector<int> RollStats() {
 
 } // namespace
 
-
+/// @brief Main Driver function
+/// @param argc Number of command line arguments
+/// @param argv Command line arguments
+/// @return Status code
 int main(int argc, char* argv[]) {
     if (argc != 4) {
         std::cout << "Usage: ./abcs-5e <ancestries file> <backgrounds file> <classes file>" << std::endl;

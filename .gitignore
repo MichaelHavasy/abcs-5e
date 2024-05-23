@@ -1,1 +1,4 @@
-build*, .vs*
+/build
+/build/*
+ 
+.vs*
